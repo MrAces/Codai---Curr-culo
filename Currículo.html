@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codaí</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Imbue:wght@100;200;300;400&family=Poppins&family=Open+Sans+Condensed:wght@300&Yusei+Magic&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<!--Card de Identificação-->
+
+<body>
+    <div class="container-fluid container-linear">
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./Imagens/Perfil.jpg" alt="Foto de Perfil" class="card-image mx-auto d-block">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-center card-title" id="nome-html">André</h5>
+                        </h5>
+                        <hr class="hr">
+                        <p class="text-center" id="cargo-html">
+                            Desenvolvedor
+                        </p>
+                        <div class="botoes-card">
+                            <button onclick="clickSobre()" class="btn mr-1" id="btn-sobre">
+                                Sobre
+                            </button>
+                            <button onclick="clickProjetos()" class="btn ml-1" class="btn-card" id="btn-projetos">
+                                Projetos
+                            </button>
+                        </div>
+                        <div class="icon-redes-sociais">
+                            <div class="links-redes-sociais" mt-2>
+
+                                <!-- Retirei os dois pois não utilizo Facebook nem Twitter-->
+
+                                <a href="https://www.linkedin.com/in/andr%C3%A9-cezar-da-silva-350138205"
+                                    target="__blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://www.instagram.com/drecezars/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Informações Pessoais-->
+
+            <div class="col-md6 col-lg-6 text-body">
+                <div class="text" id="text-1">
+                    <h1 class="title-text">Olá, </h1>
+                    <h2 class="title-subtitle">Bem vindo ao meu currículo!</h2>
+                    <div class="p-text">
+                        <p>Me chamo André, tenho 20 anos de idade e nasci em Santa Maria-RS-Brazil. </p>
+                        <p>Tenho grande interesse na área de programação e desenvolvimento web.</p>
+                        <p>Meu objetivo atual é ingressar no Programa Starter 4ª Edição para aprender mais.</p>
+                    </div>
+                </div>
+
+                <div class="text" class="slide" id="text-2">
+                    <h2 class="title-text">Projetos</h2>
+                    <div class="p-text">
+                        <p>Esses são alguns dos projetos em que eu atuei como Desenvolvedor</p>
+                        <p> <a href="#" target="_blank">Meu Currículo - Desenvolvido em Html:5</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Rodapé-->
+
+    <footer class="container">
+        <div class="row" id="footer-elementos">
+            <div class="col-md-3 col-lg-3">
+                <h4>Telefone</h4>
+                <p>(55)9 9183-2710</p>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="email">
+                    <h4>E-mail</h4>
+                    <p>andrecezarmesmo@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h4>Siga</h4>
+                <div class="links-redes-sociais">
+
+                    <!-- *nota*: Retirei os dois pois não utilizo Facebook nem Twitter-->
+
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-cezar-da-silva-350138205" target="__blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/drecezars/" target="__blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mb-2">
+            <div class="col-lg-12 col-md-12">
+                <small>2020<a href="https://www.growdev.com.br/" target="__blank"> Growdev</a></small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
