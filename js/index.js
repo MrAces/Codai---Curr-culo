@@ -1,4 +1,4 @@
-var nome = "André Cezar";
+var nome = "André";
 var cargo = "Desenvolvedor";
 
 var nomeHtml = document.getElementById("nome-html");
